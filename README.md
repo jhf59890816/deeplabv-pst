@@ -1,4 +1,13 @@
-下载解压deeplab3p-stcode文件 环境配置安装依赖： $ pip install segmentation-models-pytorch For Aarch64: pip3 install torch==1.11.0 For x86: pip3 install torch==1.11.0+cpu --index-url https://download.pytorch.org/whl/cpu
+下载解压deeplab3p-stcode文件 环境配置安装依赖：
+$ pip install segmentation-models-pytorch 
+
+For Aarch64: 
+
+pip3 install torch==1.11.0 
+
+For x86: 
+
+pip3 install torch==1.11.0+cpu --index-url https://download.pytorch.org/whl/cpu
 
 Install torch-npu dependencies Run the following command to install dependencies.
 
